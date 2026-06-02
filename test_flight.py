@@ -41,7 +41,8 @@ class TestFlightTicket:
         #verify page content
         wait = WebDriverWait(driver, 15)
         roundtrip = wait.until(
-            EC.presence_of_element_located((By.XPATH, "//span[text()='roundtrip']"))
+            EC.presence_of_element_located((
+                By.XPATH, "//span[text()='roundtrip']"))
         )
         assert roundtrip.is_displayed()
         time.sleep(10)
