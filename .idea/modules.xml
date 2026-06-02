@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/.idea/test_Spree.iml" filepath="$PROJECT_DIR$/.idea/test_Spree.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/.idea/PyCharmMiscProject.iml" filepath="$PROJECT_DIR$/.idea/PyCharmMiscProject.iml" />
+>>>>>>> 07ef7f3b607ffbe0ee343938baba6825d3aab2d6
     </modules>
   </component>
 </project>

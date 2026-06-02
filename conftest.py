@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import pytest
 
 def pytest_configure(config):
@@ -29,3 +30,9 @@ def pytest_runtest_makereport(item):
 def _capture_screenshot(driver, name):
     print("take screenshot")
     driver.get_screenshot_as_file(name)
+=======
+def pytest_configure(config):
+    config.option.log_cli = True
+    config.option.log_file = 'google_test.log'
+    config.option.log_file_level= 'INFO'
+>>>>>>> 07ef7f3b607ffbe0ee343938baba6825d3aab2d6
